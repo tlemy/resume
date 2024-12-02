@@ -45,12 +45,6 @@ function About({data, lang, setLanguage}) {
                         {skills.env.map((item, index) => { return <pre className="subText" key={index}>{item + ", "}</pre> })}
                     </div>
                 </div>
-                <div className="spokenLangs informationItem">
-                    <p className="label">{labels.spokenLangs}</p>
-                    <div className="text">
-                        {others.spokenLangs.map((item, index) => { return <pre className="subText" key={index}>{item + ", "}</pre> })}
-                    </div>
-                </div>
                 <div className="interests informationItem">
                     <p className="label">{labels.interests}</p>
                     <div className="text">
