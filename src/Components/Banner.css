@@ -9,8 +9,9 @@
 .typewriter
 {
     font-family: "Courier New", Times, serif;
-    font-size: 0.6em;
-    max-width: 58.5%;
+    font-size: 0.75em;
+    font-weight: bold;
+    max-width: 75%;
     color: #8338ec;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .25em solid #8338ec; /* The typwriter cursor */
@@ -25,7 +26,7 @@
 @keyframes typing
 {
     from { width: 0% }
-    to { width: 58.5% }
+    to { width: 75% }
 }
 
 @keyframes blink-caret
