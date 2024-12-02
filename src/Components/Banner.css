@@ -6,14 +6,15 @@
     text-align: left;
     font-family: 'Courier', monospace, serif;
     color: #EB5B00;
-    font-size: calc(2px + 1.25vmin);
-    margin: 0;
+    font-size: calc(2px + 0.95vmin);
+    margin: -0.1rem;
 }
 
 .typewriter
 {
     font-family: "Courier New", Times, serif;
-    max-width: calc(50% + 8vh);
+    font-size: 75%;
+    max-width: calc(60% + 8vh);
     color: #8338ec;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .25em solid #8338ec; /* The typwriter cursor */
@@ -28,7 +29,7 @@
 @keyframes typing
 {
     from { width: 0% }
-    to { width: calc(50% + 8vh) }
+    to { width: calc(60% + 8vh) }
 }
 
 @keyframes blink-caret
