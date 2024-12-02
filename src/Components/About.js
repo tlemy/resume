@@ -1,10 +1,20 @@
 import "./About.css"
 
+function setLanguage(lang) {
+    
+}
+
 function About({icon, email, skills, labels, others}) {
     return (
         <div className="About">
-            <div className="logo">
-                {icon.map((line, index) => ( <pre className="computerLine" key={index} dangerouslySetInnerHTML={{__html: line}}/> ))}
+            <div className="logoLanguage">
+                <div className="language">
+                    <button>EN</button>
+                    <button>FR</button>
+                </div>
+                <div className="logo">
+                    {icon.map((line, index) => ( <pre className="computerLine" key={index} dangerouslySetInnerHTML={{__html: line}}/> ))}
+                </div>
             </div>
             <div className="informations">
                 <div className="email informationItem">

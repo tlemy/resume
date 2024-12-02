@@ -32,10 +32,15 @@
     justify-content: flex-end;
 }
 
+.logoLanguage {
+     display: grid;
+}
+
 .informations {
     display: grid;
     font-size: 0.625em;
     margin-left: 1rem;
+    max-width: 35vw;
 }
 
 .informationItem {
@@ -57,10 +62,10 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -7%;
-    margin-bottom: 5%;
+    margin-top: -1.75em;
+    margin-bottom: 1em;
 }
 
 .subText {
-    margin-bottom: -2.5%;
+    margin-bottom: -1em;
 }
