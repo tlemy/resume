@@ -14,7 +14,7 @@
 {
     font-family: "Courier New", Times, serif;
     font-size: 75%;
-    max-width: calc(60% + 8vh);
+    max-width: 73.5%;
     color: #8338ec;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .25em solid #8338ec; /* The typwriter cursor */
@@ -29,7 +29,7 @@
 @keyframes typing
 {
     from { width: 0% }
-    to { width: calc(60% + 8vh) }
+    to { width: 73.5% }
 }
 
 @keyframes blink-caret
