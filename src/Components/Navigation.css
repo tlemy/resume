@@ -1,0 +1,31 @@
+.Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.navItem {
+    color: black;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 0.5em;
+    padding: 0.3em;
+    border-radius: 0.2em;
+    background-color: #8338ec;
+    transition: height 1s ease-out;
+}
+
+.selected {
+    height: 5em;
+}
+
+.notSelected {
+    height: 1.5em;
+}
+
+.nonSelectable {
+    -webkit-user-select: none;  /* Safari */
+    -ms-user-select: none;      /* IE 10 and IE 11 */
+    user-select: none;          /* Standard syntax */
+}
