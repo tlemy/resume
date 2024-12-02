@@ -1,0 +1,66 @@
+.About {
+    max-width: 90vw;
+}
+.computerScreen {
+    color: #FF9E00;
+    background-color: #8338ec;
+}
+
+.computerLight
+{
+    animation: blinking 3s infinite;
+}
+
+.computerLine {
+    text-align: left;
+    font-family: 'Courier', monospace, serif;
+    color: #EB5B00;
+    font-size: calc(7px + 1vmin);
+    margin: -0.1rem;
+}
+
+@keyframes blinking
+{
+    from, to { background-color: #EB5B00; }
+    5% { background-color: black; }
+}
+
+.About {
+    display: flex;
+    margin-top: 5vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.informations {
+    display: grid;
+    font-size: 0.5em;
+    margin-left: 1rem;
+}
+
+.informationItem {
+    font-family: 'Courier', monospace, serif;
+}
+
+.label {
+    color: black;
+    background-color: #EB5B00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+.text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -7%;
+    margin-bottom: 5%;
+}
+
+.subText {
+    margin-bottom: -2.5%;
+}

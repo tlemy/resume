@@ -12,11 +12,68 @@
         "                                                                   |  $$$$$$/",
         "                                                                    \\______/ "
     ],
-    "subtitle": "Software developer",       
+    "subtitle": "Software developer",
+    "icon": [
+        "  _________________",
+        " | _______________ |",
+        " | |<span class=\"computerScreen\">             </span>| |",
+        " | |<span class=\"computerScreen\">             </span>| |",
+        " | |<span class=\"computerScreen\">HELLO, WORLD!</span>| |",
+        " | |<span class=\"computerScreen\">             </span>| |",
+        " | |<span class=\"computerScreen\">_____________</span>| |",
+        " |_________________|",
+        "     _[_______]_",
+        " ___[___________]___",
+        "|         [_____] []|",
+        "| <span class=\"computerLight\"> </span>       [_____] []|",
+        "L___________________J" 
+    ],
+    "email": "lemyted21@gmail.com",
+    "skills": {
+        "progLangs": [
+            "Java", "Javascript", "SQL"
+        ],
+        "tools": [
+            "Spring", "Maven", "Tomcat", "Git", "Jenkins", "Docker"
+        ],
+        "env": [
+            "Linux", "Windows"
+        ]
+    },
     "en": {
-            
+        "labels": {
+            "email": "Email",
+            "progLangs": "Programming",
+            "tools": "Tools",
+            "env": "Environments",
+            "spokenLangs": "Languages",
+            "interests": "Interests"
+        },
+        "moreInfo": {
+            "spokenLangs": [
+                "French", "English"
+            ],
+            "interests": [
+                "Rock climbing", "Yoga", "Growing plants"
+            ] 
+        }
     },
     "fr": {
-
+        "labels": {
+            "email": "Courriel",
+            "progLangs": "Programmation",
+            "tools": "Outils",
+            "env": "Environements",
+            "spokenLangs": "Languages",
+            "interests": "Interests"
+        },
+        "moreInfo": {
+            "spokenLangs": [
+                "Francais", "Anglais"
+            ],
+            "interests": [
+                "Escalade", "Yoga", "Pousser des Plantes"
+            ] 
+        }
     }
 }
