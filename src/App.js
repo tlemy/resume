@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() 
 {
-  const [lang, setLanguage] = useState(1);
+  const [lang, setLanguage] = useState(0);
   const languages = ["en", "fr"];
   const title = data.banner;
   const subtitle = data[languages[lang]].subtitle;
