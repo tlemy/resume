@@ -1,16 +1,20 @@
 import "./About.css"
 
-function setLanguage(lang) {
-    
-}
+function About({data, lang, setLanguage}) {
+    const EN = 0;
+    const FR = 1;
+    const icon = data.icon;
+    const email = data.email;
+    const skills = data.skills;
+    const labels = data[lang].labels;
+    const others = data[lang].moreInfo;
 
-function About({icon, email, skills, labels, others}) {
     return (
         <div className="About">
             <div className="logoLanguage">
                 <div className="language">
-                    <button>EN</button>
-                    <button>FR</button>
+                    <button className={lang === "en" ? "clickedButton": "unclickedButton"} onClick={() => setLanguage(EN)}>EN</button>
+                    <button className={lang === "fr" ? "clickedButton": "unclickedButton"} onClick={() => setLanguage(FR)}>FR</button>
                 </div>
                 <div className="logo">
                     {icon.map((line, index) => ( <pre className="computerLine" key={index} dangerouslySetInnerHTML={{__html: line}}/> ))}

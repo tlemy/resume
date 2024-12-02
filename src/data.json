@@ -12,7 +12,6 @@
         "                                                                   |  $$$$$$/",
         "                                                                    \\______/ "
     ],
-    "subtitle": "Software developer",
     "icon": [
         "  _________________",
         " | _______________ |",
@@ -41,6 +40,7 @@
         ]
     },
     "en": {
+        "subtitle": "Software developer",
         "labels": {
             "email": "Email",
             "progLangs": "Programming",
@@ -59,13 +59,14 @@
         }
     },
     "fr": {
+        "subtitle": "Software developer",
         "labels": {
             "email": "Courriel",
             "progLangs": "Programmation",
             "tools": "Outils",
             "env": "Environements",
             "spokenLangs": "Languages",
-            "interests": "Interests"
+            "interests": "Intérets"
         },
         "moreInfo": {
             "spokenLangs": [

@@ -69,3 +69,15 @@
 .subText {
     margin-bottom: -1em;
 }
+
+button {
+    border: none;
+}
+
+.clickedButton {
+    background-color: #8338ec;
+}
+
+.unclickedButton {
+   
+}
