@@ -34,7 +34,7 @@
 
 .informations {
     display: grid;
-    font-size: 0.5em;
+    font-size: 0.55em;
     margin-left: 1rem;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .label {
-    color: black;
-    background-color: #EB5B00;
+    color: #EB5B00;
+    border: 0.1em solid #EB5B00;
     display: flex;
     justify-content: center;
     align-items: center;
