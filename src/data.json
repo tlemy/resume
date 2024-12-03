@@ -51,7 +51,9 @@
             "exp": "Experience",
             "ope": "Volunteering",
             "por": "Portfolio",
-            "edu": "Education"
+            "edu": "Education",
+            "years" : "years",
+            "see": "github"
         },
         "moreInfo": {
             "spokenLangs": [
@@ -64,14 +66,14 @@
         "experiences" : [
             {
                "title": "Software developer at Humania Insurances",
-                "startDate": "04-11-2022",
+                "startDate": "2022-04-11",
                 "endDate": "",
-                "currentPosition": true,
                 "points": [
                     "Developed the customer facing web application. Added new fields and new buttons used in the forms that allows customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
                     "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
                     "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
-                ]
+                ],
+                "tags": ["current role", "java", "backend"]
             }
         ],
         "contributions": [
@@ -87,7 +89,7 @@
             },
             {
                 "title" : "Linux Mint",
-                "tags" : ["C" , "Desktop application"],
+                "tags" : ["C Language" , "Desktop application"],
                 "pullRequests" : [
                     {
                         "description" : "added new setting in text editor to close the window when closing the last tab",
@@ -121,7 +123,9 @@
             "exp": "Expérience",
             "ope": "Bénévolat",
             "por": "Portfolio",
-            "edu": "Éducation"
+            "edu": "Éducation",
+            "years" : "années",
+            "see": "voir sur github"
         },
         "moreInfo": {
             "spokenLangs": [

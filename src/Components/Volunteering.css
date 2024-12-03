@@ -3,3 +3,7 @@
     min-height: 24em;
     transition: height 2s ease-in-out;
 }
+
+.gitButton {
+    margin-top: 0.25em;
+}

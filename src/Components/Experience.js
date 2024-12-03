@@ -3,6 +3,7 @@ import './Experience.css'
 function Experience({data, lang, isSelected}) 
 {
     const experiences = data[lang].experiences;
+    const labels = data[lang].labels;
 
     return (
       <div className={`${isSelected ? "Experience" : "invisible"}`}>
@@ -21,11 +22,30 @@ function Experience({data, lang, isSelected})
                       </div>
                     ))
                   }
+                  <div className='tags'>
+                    <div className='tag'>{`${calculateYoe(job.startDate, job.endDate)} ${labels.years}`}</div>
+                    {
+                      job.tags.map((tag, index3) => (
+                        <div key={index3} className='tag'>{tag}</div>
+                      ))
+                    }
+                  </div>
                 </div>
             ))
         }
       </div>  
     );
+}
+
+function calculateYoe(start, end) 
+{
+  const startDate = new Date(start);
+  const endDate = new Date();
+  const diff = endDate.getFullYear() - startDate.getFullYear();
+
+  console.log(diff, startDate, endDate);
+
+  return diff;
 }
 
 export default Experience;

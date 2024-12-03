@@ -75,3 +75,62 @@ html {
 .invisible {
   display: none;
 }
+
+.label {
+  color: #EB5B00;
+  border: 0.1em solid #EB5B00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+}
+
+.text {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -1.75em;
+  margin-bottom: 1em;
+}
+
+.subText {
+  margin-bottom: -1em;
+}
+
+button {
+  border: none;
+  font-size: calc(7px + 1vmin);
+  font-family: 'Courier', monospace, serif;
+  font-weight: bold;
+}
+
+.clickedButton {
+  background-color: #8338ec;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 1em;
+  max-width: 20em;
+  margin-top: 0.5em;
+}
+
+.tag {
+  color: #EB5B00;
+  border: 0.1em solid #EB5B00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(7px + 1vmin);
+  font-family: 'Courier', monospace, serif;
+  margin-bottom: 0.75em;
+  padding: 0.25em;
+}
+
+.listItem {
+  margin-bottom: 1em;
+}
