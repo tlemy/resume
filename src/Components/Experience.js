@@ -6,7 +6,7 @@ function Experience({data, lang, isSelected})
     const labels = data[lang].labels;
 
     return (
-      <div className={`${isSelected ? "Experience" : "invisible"}`}>
+      <div className={`section ${isSelected ? "Experience" : "invisible"}`}>
         {
             experiences.map((job, index) => (
                 <div key={index} className='experienceListItem'>
@@ -42,8 +42,6 @@ function calculateYoe(start, end)
   const startDate = new Date(start);
   const endDate = new Date();
   const diff = endDate.getFullYear() - startDate.getFullYear();
-
-  console.log(diff, startDate, endDate);
 
   return diff;
 }

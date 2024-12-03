@@ -1,36 +1,36 @@
-import './Volunteering.css'
+import './Portfolio.css'
 
-function Volunteering({data, lang, isSelected}) 
+function Portfolio({data, lang, isSelected}) 
 {
-    const contributions = data[lang].contributions;
+    const projects = data[lang].projects;
 
     return (
-      <div className={`section ${isSelected ? "Volunteering" : "invisible"}`}>
+      <div className={`section ${isSelected ? "Portfolio" : "invisible"}`}>
         {
-            contributions.map((contribution, index) => (
+            projects.map((project, index) => (
                 <div className='listItem' key={index}>
-                   <div className='titleItem'>
+                  <div className='titleItem'>
                       <p className='square'></p>
-                      <h2 className="title">{contribution.title}</h2>
+                      <h2 className="title">{project.title}</h2>
                   </div>
                   {
-                    contribution.pullRequests.map((pr, index2) => (
+                    project.points.map((point, index2) => (
                       <div key={index2} className='description'>
                         <p className='subSquare'></p>
                         <div className='point'>
                             <div>
-                              {pr.description}
+                              {point}
                             </div>
-                            <a href={pr.url} target="_blank" rel="noreferrer">
-                              <button className='gitButton'>github</button>
-                            </a>
                         </div>
                       </div>
                     ))
                   }
+                  <a href={project.url} target="_blank" rel="noreferrer">
+                    <button className='projectGitButton'>github</button>
+                  </a>
                   <div className='tags'>
                     {
-                      contribution.tags.map((tag, index3) => (
+                      project.tags.map((tag, index3) => (
                         <div key={index3} className='tag'>{tag}</div>
                       ))
                     }
@@ -42,4 +42,4 @@ function Volunteering({data, lang, isSelected})
     );
 }
 
-export default Volunteering;
+export default Portfolio;

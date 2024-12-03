@@ -1,5 +1,9 @@
-.Volunteering {
+.Portfolio {
     background-color: black;
     min-height: 24em;
     transition: height 2s ease-in-out;
+}
+
+.projectGitButton {
+    margin-left: -23em;
 }

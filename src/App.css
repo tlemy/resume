@@ -24,6 +24,7 @@ html {
   column-gap: 0.1em;
   justify-content: left;
   align-items: center;
+  margin-bottom: -0.5em;
 }
 
 .title {
@@ -116,7 +117,7 @@ button {
   flex-direction: row;
   column-gap: 1em;
   max-width: 20em;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 
 .tag {
@@ -133,4 +134,13 @@ button {
 
 .listItem {
   margin-bottom: 1em;
+
+}
+
+.section {
+  margin-top: 0.5em;
+}
+
+.gitButton {
+  margin-top: 0.5em;
 }

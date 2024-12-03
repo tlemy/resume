@@ -52,8 +52,7 @@
             "ope": "Volunteering",
             "por": "Portfolio",
             "edu": "Education",
-            "years" : "years",
-            "see": "github"
+            "years" : "years"
         },
         "moreInfo": {
             "spokenLangs": [
@@ -109,6 +108,24 @@
                     }
                 ]
             }
+        ],
+        "projects": [
+            {
+                "title" : "Binary / Roman numeral to decimal converter",
+                "tags": ["Java", "Springboot", "Maven", "Jenkins", "Docker"],
+                "points": [
+                    "Implemented a REST API converter with java spring boot following TDD methodologies",
+                    "Installed Docker and setup Jenkins instance in docker container",
+                    "Created CI/CD pipeline for automated packaging, testing and deployment"
+                ],
+                "url" : "https://github.com/tlemy/binary-data-utils"
+            }
+        ],
+        "academics": [
+            {
+                "title": "Computer science Bachelors degree at University Laval",
+                "tags": ["On going", "Part time", "Weekends and evenings"]
+            }
         ]
     },
     "fr": {
@@ -124,8 +141,7 @@
             "ope": "Bénévolat",
             "por": "Portfolio",
             "edu": "Éducation",
-            "years" : "années",
-            "see": "voir sur github"
+            "years" : "années"
         },
         "moreInfo": {
             "spokenLangs": [
@@ -138,6 +154,10 @@
         "experiences" : [
         ],
         "contributions": [
+        ],
+        "projects": [
+        ],
+        "academics": [
         ]
     }
 }
