@@ -31,6 +31,7 @@ html {
   font-size: calc(7px + 1.5vmin);
   grid-column: 9;
   align-items: flex-start;
+  white-space: nowrap;
 }
 
 .square {
