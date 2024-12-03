@@ -33,7 +33,7 @@
 }
 
 .logoLanguage {
-     display: grid;
+    display: grid;
 }
 
 .informations {
@@ -74,6 +74,7 @@ button {
     border: none;
     font-size: calc(7px + 1vmin);
     font-family: 'Courier', monospace, serif;
+    font-weight: bold;
 }
 
 .clickedButton {
