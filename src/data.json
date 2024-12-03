@@ -73,7 +73,7 @@
                     "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
                     "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
                 ],
-                "tags": ["current role", "java", "backend"]
+                "tags": ["Current role", "Java", "Backend"]
             }
         ],
         "contributions": [
