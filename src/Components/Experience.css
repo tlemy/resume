@@ -1,0 +1,24 @@
+.Experience {
+    
+}
+
+.jobTitleItem {
+    display: grid;
+    grid-template-columns: 1 9;
+    column-gap: 0.1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobTitle {
+    color: white;
+    font-size: calc(7px + 1vmin);
+    grid-column: 9;
+}
+
+.square {
+    background-color: #EB5B00;
+    height: calc(7px + 1vmin);
+    width: calc(7px + 1vmin);
+    grid-column: 1;
+}

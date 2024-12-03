@@ -60,7 +60,20 @@
             "interests": [
                 "Rock climbing", "Yoga", "Growing plants"
             ] 
-        }
+        },
+        "experiences" : [
+            {
+               "title": "Software developer at Humania Insurances",
+                "startDate": "04-11-2022",
+                "endDate": "",
+                "currentPosition": true,
+                "points": [
+                    "Developed the customer facing web application. Added new fields and new buttons used in the forms that allows customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
+                    "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
+                    "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
+                ]
+            }
+        ]
     },
     "fr": {
         "subtitle": "Software developer",
@@ -83,6 +96,18 @@
             "interests": [
                 "Escalade", "Yoga", "Pousser des Plantes"
             ] 
-        }
+        },
+        "experiences" : [
+            {
+                "title": "Software developer at Humania Insurances",
+                "startDate": "11-04-2022",
+                "endDate": "",
+                "points": [
+                    "Developed the customer facing web application. Added new fields and new buttons used in the forms that allows customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
+                    "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
+                    "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
+                ]
+            }
+        ]
     }
 }

@@ -38,7 +38,7 @@
 
 .informations {
     display: grid;
-    font-size: 0.625em;
+    font-size: calc(7px + 1vmin);
     margin-left: 1rem;
     max-width: 35vw;
 }
@@ -72,6 +72,8 @@
 
 button {
     border: none;
+    font-size: calc(7px + 1vmin);
+    font-family: 'Courier', monospace, serif;
 }
 
 .clickedButton {

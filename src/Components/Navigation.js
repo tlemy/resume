@@ -1,6 +1,7 @@
 import './Navigation.css'
 
-function Navigation({data, lang, section, setSection}) {
+function Navigation({data, lang, section, setSection}) 
+{
     const labels = data[lang].labels;
 
     return (

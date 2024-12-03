@@ -1,6 +1,7 @@
 import "./About.css"
 
-function About({data, lang, setLanguage}) {
+function About({data, lang, setLanguage}) 
+{
     const EN = 0;
     const FR = 1;
     const icon = data.icon;
