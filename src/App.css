@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -12,4 +16,61 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 5vh;
+}
+
+.titleItem {
+  display: grid;
+  grid-template-columns: 1 9;
+  column-gap: 0.1em;
+  justify-content: left;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: calc(7px + 1.5vmin);
+  grid-column: 9;
+  align-items: flex-start;
+}
+
+.square {
+  background-color: #EB5B00;
+  height: calc(7px + 1vmin);
+  width: calc(7px + 1vmin);
+  grid-column: 1;
+}
+
+.subSquare {
+  background-color: #8338ec;
+  height: calc(7px + 1vmin);
+  width: calc(7px + 1vmin);
+  grid-column: 1;
+}
+
+.description {
+  color: white;
+  font-size: calc(7px + 1vmin);
+  grid-column: 9;
+  max-width: 30em;
+  text-align: left;
+  margin-left: 2.5em;
+  display: grid;
+  grid-template-columns: 1 9;
+  column-gap: 0.1em;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.point {
+  color: white;
+  font-size: calc(7px + 1vmin);
+  grid-column: 9;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0.7em;
+  transition: all 1s ease-out;
+}
+
+.invisible {
+  display: none;
 }

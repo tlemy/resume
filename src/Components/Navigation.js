@@ -6,10 +6,10 @@ function Navigation({data, lang, section, setSection})
 
     return (
         <div className="Navigation">
-            <div onClick={() => setSection(0)} className={`navItem nonSelectable ${section === "exp" ? "selected" : "notSelected"}`}>{labels.exp}</div>
-            <div onClick={() => setSection(1)} className={`navItem nonSelectable ${section === "ope" ? "selected" : "notSelected"}`}>{labels.ope}</div>
-            <div onClick={() => setSection(2)} className={`navItem nonSelectable ${section === "por" ? "selected" : "notSelected"}`}>{labels.por}</div>
-            <div onClick={() => setSection(3)} className={`navItem nonSelectable ${section === "edu" ? "selected" : "notSelected"}`}>{labels.edu}</div>
+            <div onClick={() => setSection("experiences")} className={`navItem nonSelectable ${section === "experiences" ? "selected" : "notSelected"}`}>{labels.exp}</div>
+            <div onClick={() => setSection("volunteering")} className={`navItem nonSelectable ${section === "volunteering" ? "selected" : "notSelected"}`}>{labels.ope}</div>
+            <div onClick={() => setSection("portfolio")} className={`navItem nonSelectable ${section === "portfolio" ? "selected" : "notSelected"}`}>{labels.por}</div>
+            <div onClick={() => setSection("education")} className={`navItem nonSelectable ${section === "education" ? "selected" : "notSelected"}`}>{labels.edu}</div>
         </div>
     );
 }

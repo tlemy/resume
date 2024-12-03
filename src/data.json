@@ -73,6 +73,40 @@
                     "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
                 ]
             }
+        ],
+        "contributions": [
+            {
+                "title": "LLVM",
+                "tags": ["C++" , "Compiler"],
+                "pullRequests": [
+                    {
+                        "description": "added better error message for defining a friend function in clang",
+                        "url": "https://github.com/llvm/llvm-project/issues/116808"
+                    }
+                ]
+            },
+            {
+                "title" : "Linux Mint",
+                "tags" : ["C" , "Desktop application"],
+                "pullRequests" : [
+                    {
+                        "description" : "added new setting in text editor to close the window when closing the last tab",
+                        "url" : "https://github.com/linuxmint/xed/pull/613"
+                    },
+                    {
+                        "description" : "added shortcut to duplicate line in text editor",
+                        "url" : "https://github.com/linuxmint/xed/pull/615"
+                    },
+                    {
+                        "description" : "fixed bug in text editor about a trailling space character",
+                        "url" : "https://github.com/linuxmint/xed/pull/616"
+                    },
+                    {
+                        "description" : "fixed bug in text editor about saving empty documents",
+                        "url" : "https://github.com/linuxmint/xed/pull/617"
+                    }
+                ]
+            }
         ]
     },
     "fr": {
@@ -98,16 +132,8 @@
             ] 
         },
         "experiences" : [
-            {
-                "title": "Software developer at Humania Insurances",
-                "startDate": "11-04-2022",
-                "endDate": "",
-                "points": [
-                    "Developed the customer facing web application. Added new fields and new buttons used in the forms that allows customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
-                    "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
-                    "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
-                ]
-            }
+        ],
+        "contributions": [
         ]
     }
 }

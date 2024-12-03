@@ -1,18 +1,16 @@
 import Experience from './Experience';
 import './Resume.css'
+import Volunteering from './Volunteering';
 
 function Resume({data, lang, section}) 
 {
     console.log(section);
     return (
         <div className="Resume">
-            {getSection(data, lang, section)}
+            <Experience data={data} lang={lang} isSelected={section === "experiences"}/>
+            <Volunteering data={data} lang={lang} isSelected={section === "volunteering"}/>
         </div>
     );
-}
-
-function getSection(data, lang, section) {
-    if (section === "exp") return <Experience data={data} lang={lang}/>
 }
 
 export default Resume;
