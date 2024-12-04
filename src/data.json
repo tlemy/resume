@@ -151,13 +151,74 @@
                 "Escalade", "Yoga", "Pousser des Plantes"
             ] 
         },
-        "experiences" : [
+        "experiences": [
+            {
+                "title": "Développeur logiciel chez Humania Assurances",
+                "startDate": "2022-04-11",
+                "endDate": "",
+                "points": [
+                    "À développé l'application web destinée aux clients. À ajouté de nouveaux champs et de nouveaux boutons utilisés dans les formulaires permettant aux clients d'acheter des produits d'assurance. Chaque nouveau produit d'assurance nécessite un formulaire différent avec des règles d'affaire différentes.",
+                    "À développé une application de traitement par lots capable de traiter plusieurs fichiers xml de manière fiable. Utilisée dans le processus de migration impliquant l'importation de milliers de polices d'assurance d'une base de données externe vers notre base de données interne.",
+                    "À développé le service de génération de devis d'assurance. À implémenté du code pour rassembler les informations pertinentes et les formater. Utilisé pour générer des devis d'assurance au format PDF avec les produits choisis et les informations connexes."
+                ],
+                "tags": [
+                    "Rôle actuel", 
+                    "Java", 
+                    "Backend"
+                ]
+            }
         ],
         "contributions": [
+            {
+                "title": "LLVM",
+                "tags": ["C++", "Compilateur"],
+                "pullRequests": [
+                    {
+                        "description": "ajout d'un meilleur message d'erreur pour la définition d'une fonction 'friend' dans clang",
+                        "url": "https://github.com/llvm/llvm-project/issues/116808"
+                    }
+                ]
+            },
+            {
+                "title": "Linux Mint",
+                "tags": ["Langage C", "Application de bureau"],
+                "pullRequests": [
+                    {
+                        "description": "ajout d'un nouveau paramètre dans l'éditeur de texte pour fermer la fenêtre lors de la fermeture du dernier onglet",
+                        "url": "https://github.com/linuxmint/xed/pull/613"
+                    },
+                    {
+                        "description": "ajout d'un raccourci pour dupliquer la ligne dans l'éditeur de texte",
+                        "url": "https://github.com/linuxmint/xed/pull/615"
+                    },
+                    {
+                        "description": "correction d'un bug dans l'éditeur de texte concernant un caractère d'espace final",
+                        "url": "https://github.com/linuxmint/xed/pull/616"
+                    },
+                    {
+                        "description": "correction d'un bug dans l'éditeur de texte concernant l'enregistrement de documents vides",
+                        "url": "https://github.com/linuxmint/xed/pull/617"
+                    }
+                ]
+            }
         ],
         "projects": [
+            {
+                "title": "Convertisseur binaire / chiffres romains en décimal",
+                "tags": ["Java", "Springboot", "Maven", "Jenkins", "Docker"],
+                "points": [
+                    "À implémenté un API REST de conversion avec java spring boot en suivant les méthodologies TDD",
+                    "À installé Docker et configuré une instance Jenkins dans un conteneur docker",
+                    "À créé un pipeline CI/CD pour l'empaquetage, les tests et le déploiement automatisés"
+                ],
+                "url": "https://github.com/tlemy/binary-data-utils"
+            }
         ],
         "academics": [
+            {
+                "title": "Baccalauréat en informatique à l'Université Laval",
+                "tags": ["En cours", "Temps partiel", "Fins de semaine et soirées"]
+            }
         ]
     }
 }
