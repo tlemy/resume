@@ -1,7 +1,7 @@
 .bannerLine {
     text-align: left;
     font-family: 'Courier', monospace, serif;
-    color: #EB5B00;
+    color: #0A97B0;
     font-size: calc(2px + 0.95vmin);
     margin: -0.1rem;
 }
@@ -12,9 +12,9 @@
     font-size: 0.75em;
     font-weight: bold;
     max-width: 75%;
-    color: #8338ec;
+    color: #0A5EB0;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .25em solid #8338ec; /* The typwriter cursor */
+    border-right: .25em solid #0A5EB0; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .20em; /* Adjust as needed */
@@ -32,5 +32,5 @@
 @keyframes blink-caret
 {
     from, to { border-color: transparent; }
-    50% { border-color: #8338ec; }
+    50% { border-color: #0A5EB0; }
 }

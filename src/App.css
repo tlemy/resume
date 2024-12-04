@@ -36,14 +36,14 @@ html {
 }
 
 .square {
-  background-color: #EB5B00;
+  background-color: #0A97B0;
   height: calc(7px + 1vmin);
   width: calc(7px + 1vmin);
   grid-column: 1;
 }
 
 .subSquare {
-  background-color: #8338ec;
+  background-color: #0A5EB0;
   height: calc(7px + 1vmin);
   width: calc(7px + 1vmin);
   grid-column: 1;
@@ -78,8 +78,8 @@ html {
 }
 
 .label {
-  color: #EB5B00;
-  border: 0.1em solid #EB5B00;
+  color: #0A97B0;
+  border: 0.1em solid #0A97B0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ button {
 }
 
 .clickedButton {
-  background-color: #8338ec;
+  background-color: #0A5EB0;
 }
 
 .tags {
@@ -121,8 +121,8 @@ button {
 }
 
 .tag {
-  color: #EB5B00;
-  border: 0.1em solid #EB5B00;
+  color: #0A97B0;
+  border: 0.1em solid #0A97B0;
   display: flex;
   justify-content: center;
   align-items: center;

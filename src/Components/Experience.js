@@ -10,9 +10,17 @@ function Experience({data, lang, isSelected})
         {
             experiences.map((job, index) => (
                 <div key={index} className='experienceListItem'>
-                   <div className='titleItem'>
+                  <div className='titleItem'>
                       <p className='square'></p>
                       <h2 className="title">{job.title}</h2>
+                  </div>
+                  <div className='tags'>
+                    <div className='tag'>{`${calculateYoe(job.startDate, job.endDate)} ${labels.years}`}</div>
+                    {
+                      job.tags.map((tag, index3) => (
+                        <div key={index3} className='tag'>{tag}</div>
+                      ))
+                    }
                   </div>
                   {
                     job.points.map((point, index2) => (
@@ -22,14 +30,6 @@ function Experience({data, lang, isSelected})
                       </div>
                     ))
                   }
-                  <div className='tags'>
-                    <div className='tag'>{`${calculateYoe(job.startDate, job.endDate)} ${labels.years}`}</div>
-                    {
-                      job.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
-                      ))
-                    }
-                  </div>
                 </div>
             ))
         }

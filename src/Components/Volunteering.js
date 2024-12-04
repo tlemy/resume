@@ -9,9 +9,16 @@ function Volunteering({data, lang, isSelected})
         {
             contributions.map((contribution, index) => (
                 <div className='listItem' key={index}>
-                   <div className='titleItem'>
+                  <div className='titleItem'>
                       <p className='square'></p>
                       <h2 className="title">{contribution.title}</h2>
+                  </div>
+                  <div className='tags'>
+                    {
+                      contribution.tags.map((tag, index3) => (
+                        <div key={index3} className='tag'>{tag}</div>
+                      ))
+                    }
                   </div>
                   {
                     contribution.pullRequests.map((pr, index2) => (
@@ -28,13 +35,6 @@ function Volunteering({data, lang, isSelected})
                       </div>
                     ))
                   }
-                  <div className='tags'>
-                    {
-                      contribution.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
-                      ))
-                    }
-                  </div>
                 </div>
             ))
         }

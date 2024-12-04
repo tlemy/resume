@@ -13,6 +13,13 @@ function Portfolio({data, lang, isSelected})
                       <p className='square'></p>
                       <h2 className="title">{project.title}</h2>
                   </div>
+                  <div className='tags'>
+                    {
+                      project.tags.map((tag, index3) => (
+                        <div key={index3} className='tag'>{tag}</div>
+                      ))
+                    }
+                  </div>
                   {
                     project.points.map((point, index2) => (
                       <div key={index2} className='description'>
@@ -28,13 +35,6 @@ function Portfolio({data, lang, isSelected})
                   <a href={project.url} target="_blank" rel="noreferrer">
                     <button className='projectGitButton'>github</button>
                   </a>
-                  <div className='tags'>
-                    {
-                      project.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
-                      ))
-                    }
-                  </div>
                 </div>
             ))
         }
