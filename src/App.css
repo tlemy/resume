@@ -122,7 +122,6 @@ button {
 
 .tag {
   color: #0A97B0;
-  border: 0.1em solid #0A97B0;
   display: flex;
   justify-content: center;
   align-items: center;

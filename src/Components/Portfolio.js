@@ -16,7 +16,7 @@ function Portfolio({data, lang, isSelected})
                   <div className='tags'>
                     {
                       project.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
+                        <div key={index3} className='tag'>{`[${tag}]`}</div>
                       ))
                     }
                   </div>

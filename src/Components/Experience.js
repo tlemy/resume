@@ -15,10 +15,10 @@ function Experience({data, lang, isSelected})
                       <h2 className="title">{job.title}</h2>
                   </div>
                   <div className='tags'>
-                    <div className='tag'>{`${calculateYoe(job.startDate, job.endDate)} ${labels.years}`}</div>
+                    <div className='tag'>{`[${calculateYoe(job.startDate, job.endDate)} ${labels.years}]`}</div>
                     {
                       job.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
+                        <div key={index3} className='tag'>{`[${tag}]`}</div>
                       ))
                     }
                   </div>

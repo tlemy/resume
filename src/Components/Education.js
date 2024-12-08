@@ -16,7 +16,7 @@ function Education({data, lang, isSelected})
                   <div className='tags'>
                     {
                       record.tags.map((tag, index3) => (
-                        <div key={index3} className='tag'>{tag}</div>
+                        <div key={index3} className='tag'>{`[${tag}]`}</div>
                       ))
                     }
                   </div>
