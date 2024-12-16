@@ -7,7 +7,7 @@ html {
 }
 
 .App-header {
-  background-color: black;
+  background-color: #76453B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,14 +36,14 @@ html {
 }
 
 .square {
-  background-color: #0A97B0;
+  background-color: #729762;
   height: calc(7px + 1vmin);
   width: calc(7px + 1vmin);
   grid-column: 1;
 }
 
 .subSquare {
-  background-color: #0A5EB0;
+  background-color: #597445;
   height: calc(7px + 1vmin);
   width: calc(7px + 1vmin);
   grid-column: 1;
@@ -78,8 +78,8 @@ html {
 }
 
 .label {
-  color: #0A97B0;
-  border: 0.1em solid #0A97B0;
+  color: #729762;
+  border: 0.1em solid #729762;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ button {
 }
 
 .clickedButton {
-  background-color: #0A5EB0;
+  background-color: #597445;
 }
 
 .tags {
@@ -121,7 +121,7 @@ button {
 }
 
 .tag {
-  color: #0A97B0;
+  color: #729762;
   display: flex;
   justify-content: center;
   align-items: center;

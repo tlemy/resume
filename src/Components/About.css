@@ -2,8 +2,8 @@
     max-width: 90vw;
 }
 .computerScreen {
-    color: #0A97B0;
-    background-color: #0A5EB0;
+    color: #729762;
+    background-color: #597445;
 }
 
 .computerLight
@@ -14,15 +14,15 @@
 .computerLine {
     text-align: left;
     font-family: 'Courier', monospace, serif;
-    color: #0A97B0;
+    color: #729762;
     font-size: calc(7px + 1vmin);
     margin: -0.1rem;
 }
 
 @keyframes blinking
 {
-    from, to { background-color: #0A97B0; }
-    5% { background-color: black; }
+    from, to { background-color: #729762; }
+    5% { background-color: #76453B; }
 }
 
 .About {
