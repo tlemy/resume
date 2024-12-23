@@ -33,8 +33,13 @@ function Portfolio({data, lang, isSelected})
                     ))
                   }
                   <a href={project.url} target="_blank" rel="noreferrer">
-                    <button className='projectGitButton'>github</button>
+                    <button className='projectButton'>github</button>
                   </a>
+                  { (project.demo !== "") ?
+                    <a href={project.demo} target="_blank" rel="noreferrer">
+                      <button className='projectButton'>demo</button>
+                    </a> : <div></div>
+                  }
                 </div>
             ))
         }

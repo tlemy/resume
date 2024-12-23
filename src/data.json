@@ -68,7 +68,7 @@
                 "startDate": "2022-04-11",
                 "endDate": "",
                 "points": [
-                    "Developed the customer facing web application. Added new fields and new buttons used in the forms that allows customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
+                    "Developed the customer-facing web application. Added new fields and new buttons used in the forms that allow customers to buy insurance products. Each new insurance products requires a different form with different business rules.",
                     "Developed a batch application capable of processing multiple xml files reliably. Used in the process of a migration that involved importing thousands of insurance policies from an external database to our internal database.",
                     "Developed the insurance quote generation service. Implemented code to gather the relevant information and format it. Used to generate insurance quotes in PDF format with the chosen products and related information."
                 ],
@@ -111,6 +111,19 @@
         ],
         "projects": [
             {
+                "title": "Snake game in C with Ncurses",
+                "tags" : ["C Language", "Ncurses", "TDD", "Linked List", "Pointers"],
+                "points" : [
+                    "Implemented the famous Snake game running in the terminal",
+                    "Used Ncurses to display square on the terminal",
+                    "Created the snake as a linked list with x and y positions for each body part",
+                    "Added keyboard input and collision detection with the apple and the borders",
+                    "Game can be easily compiled and played"
+                ],
+                "url": "https://github.com/tlemy/snake",
+                "demo": "https://youtu.be/DSTeDzrUGwI?si=Laz6lN8A7rJD_lwY"
+            },
+            {
                 "title" : "Binary / Roman numeral to decimal converter",
                 "tags": ["Java", "Springboot", "Maven", "Jenkins", "Docker"],
                 "points": [
@@ -118,7 +131,8 @@
                     "Installed Docker and setup Jenkins instance in docker container",
                     "Created CI/CD pipeline for automated packaging, testing and deployment"
                 ],
-                "url" : "https://github.com/tlemy/binary-data-utils"
+                "url" : "https://github.com/tlemy/binary-data-utils",
+                "demo" : ""
             }
         ],
         "academics": [
@@ -136,7 +150,7 @@
             "tools": "Outils",
             "env": "Environements",
             "spokenLangs": "Languages",
-            "interests": "Intérets",
+            "interests": "Intérêts",
             "exp": "Expérience",
             "ope": "Bénévolat",
             "por": "Portfolio",
@@ -145,7 +159,7 @@
         },
         "moreInfo": {
             "spokenLangs": [
-                "Francais", "Anglais"
+                "Français", "Anglais"
             ],
             "interests": [
                 "Escalade", "Yoga", "Pousser des Plantes"
@@ -157,9 +171,9 @@
                 "startDate": "2022-04-11",
                 "endDate": "",
                 "points": [
-                    "À développé l'application web destinée aux clients. À ajouté de nouveaux champs et de nouveaux boutons utilisés dans les formulaires permettant aux clients d'acheter des produits d'assurance. Chaque nouveau produit d'assurance nécessite un formulaire différent avec des règles d'affaire différentes.",
-                    "À développé une application de traitement par lots capable de traiter plusieurs fichiers xml de manière fiable. Utilisée dans le processus de migration impliquant l'importation de milliers de polices d'assurance d'une base de données externe vers notre base de données interne.",
-                    "À développé le service de génération de devis d'assurance. À implémenté du code pour rassembler les informations pertinentes et les formater. Utilisé pour générer des devis d'assurance au format PDF avec les produits choisis et les informations connexes."
+                    "A développé l'application web destinée aux clients. A ajouté de nouveaux champs et de nouveaux boutons utilisés dans les formulaires permettant aux clients d'acheter des produits d'assurance. Chaque nouveau produit d'assurance nécessite un formulaire différent avec des règles d'affaire différentes.",
+                    "A développé une application de traitement par lots capable de traiter plusieurs fichiers xml de manière fiable. Utilisée dans le processus de migration impliquant l'importation de milliers de polices d'assurance d'une base de données externe vers notre base de données interne.",
+                    "A développé le service de génération de devis d'assurance. A implémenté du code pour rassembler les informations pertinentes et les formater. Utilisé pour générer des devis d'assurance au format PDF avec les produits choisis et les informations connexes."
                 ],
                 "tags": [
                     "Rôle actuel", 
@@ -204,14 +218,28 @@
         ],
         "projects": [
             {
+                "title" : "Jeu du Serpent en C avec Ncurses",
+                "tags" : ["Langage C", "Ncurses", "TDD",  "Liste chaînée", "Pointeurs"],
+                "points" : [
+                    "Implémentation du célèbre jeu du Serpent fonctionnant dans le terminal",
+                    "Utilisation de Ncurses pour afficher des carrés dans le terminal",
+                    "Création du serpent sous forme de liste chaînée avec des positions x et y pour chaque partie du corps",
+                    "Ajout de la saisie au clavier et de la détection des collisions avec la pomme et les bordures",
+                    "Le jeu peut être facilement compilé et joué"
+                ],
+                "url": "https://github.com/tlemy/snake",
+                "demo": "https://youtu.be/DSTeDzrUGwI?si=Laz6lN8A7rJD_lwY"
+            },
+            {
                 "title": "Convertisseur binaire / chiffres romains en décimal",
                 "tags": ["Java", "Springboot", "Maven", "Jenkins", "Docker"],
                 "points": [
-                    "À implémenté un API REST de conversion avec java spring boot en suivant les méthodologies TDD",
-                    "À installé Docker et configuré une instance Jenkins dans un conteneur docker",
-                    "À créé un pipeline CI/CD pour l'empaquetage, les tests et le déploiement automatisés"
+                    "A implémenté un API REST de conversion avec java spring boot en suivant les méthodologies TDD",
+                    "A installé Docker et configuré une instance Jenkins dans un conteneur docker",
+                    "A créé un pipeline CI/CD pour l'empaquetage, les tests et le déploiement automatisés"
                 ],
-                "url": "https://github.com/tlemy/binary-data-utils"
+                "url": "https://github.com/tlemy/binary-data-utils",
+                "demo": ""
             }
         ],
         "academics": [
