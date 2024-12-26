@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 2.5em;
+    margin-top: 3.5em;
     height: 5em;
 }
 
 .navItem {
-    color: #76453B;
+    color: #213555;
     font-size: calc(7px + 1vmin);
     font-weight: bold;
     margin: 0.5em;

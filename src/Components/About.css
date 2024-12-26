@@ -22,7 +22,7 @@
 @keyframes blinking
 {
     from, to { background-color: #729762; }
-    5% { background-color: #76453B; }
+    5% { background-color: #213555; }
 }
 
 .About {
