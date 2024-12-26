@@ -30,10 +30,10 @@
     "email": "lemyted21@gmail.com",
     "skills": {
         "progLangs": [
-            "Java", "Javascript", "SQL"
+            "Java", "C", "Javascript", "SQL"
         ],
         "tools": [
-            "Spring", "Maven", "Tomcat", "Git", "Jenkins", "Docker"
+            "Spring", "Maven", "Tomcat", "Git", "Jenkins", "Docker", "GDB", "CUnit"
         ],
         "env": [
             "Linux", "Windows"
