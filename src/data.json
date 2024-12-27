@@ -115,7 +115,7 @@
                 "tags" : ["C Language", "Ncurses", "TDD", "Linked List", "Pointers"],
                 "points" : [
                     "Implemented the famous Snake game running in the terminal",
-                    "Used Ncurses to display square on the terminal",
+                    "Used Ncurses to display squares on the terminal",
                     "Created the snake as a linked list with x and y positions for each body part",
                     "Added keyboard input and collision detection with the apple and the borders",
                     "Game can be easily compiled and played"
