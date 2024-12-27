@@ -236,7 +236,7 @@
                 "points": [
                     "A implémenté un API REST de conversion avec java spring boot en suivant les méthodologies TDD",
                     "A installé Docker et configuré une instance Jenkins dans un conteneur docker",
-                    "A créé un pipeline CI/CD pour l'empaquetage, les tests et le déploiement automatisés"
+                    "A créé un pipeline CI/CD pour l'empaquetage, les tests et le déploiement automatisé"
                 ],
                 "url": "https://github.com/tlemy/binary-data-utils",
                 "demo": ""
